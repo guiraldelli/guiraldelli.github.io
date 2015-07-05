@@ -61,7 +61,7 @@
 Subjects
 </dt>
     <dd>
-Metabolic P systems, infodynamics
+Metabolic computing, computability, compilers, digital circuits, simulation
 </dd>
     <dt>
 Start date
@@ -79,7 +79,7 @@ End date
 Related people
 </dt>
     <dd>
-<a href="http://profs.sci.univr.it/~manca/">Vincenzo Manca</a>, <a href="http://www.di.univr.it/?ent=persona&amp;id=4905&amp;lang=en">Luca Marchetti</a>, <a href="http://www2.el.vgtu.lt/~dalius/@site/index.php?option=com_content&amp;task=view&amp;id=12&amp;Itemid=85">Dalius Navakauskas</a>
+<a href="http://profs.sci.univr.it/~manca/">Vincenzo Manca</a>, <a href="http://www2.el.vgtu.lt/~dalius/@site/index.php?option=com_content&amp;task=view&amp;id=12&amp;Itemid=85">Dalius Navakauskas</a>
 </dd>
     <dt>
 Related institutes
@@ -90,22 +90,16 @@ Related institutes
  </dl>
 
 <h3 id="description">Description</h3>
-<p>My PhD research project (proposal) seeks to find the existing relation between <a href="http://www.scholarpedia.org/article/Metabolic_P_systems">MP systems</a>, reactive systems and electrical circuits. Some of the questions the research address are:</p>
-<ul>
-<li>Is there a transformation <span class="math"><em>ξ</em></span> that maps a MP system in a circuit?</li>
-<li>Is there a transformation <span class="math"><em>ζ</em></span> that maps a circuit in a MP system?</li>
-<li>What is the class of circuits accepted for the transformation? Analog, digital or both?</li>
-<li>What is the relation between <span class="math"><em>ξ</em></span> and <span class="math"><em>ζ</em></span>? Is <span class="math"><em>ξ</em><sup> − 1</sup> = <em>ζ</em></span>?</li>
-<li>Is there a particular class of MP systems that can be transformed by <span class="math"><em>ξ</em></span>?</li>
-<li>Is there a particular class of circuits that can be transfoed by <span class="math"><em>ζ</em></span>?</li>
-</ul>
-<p>There are a number of relevant results derived from this research line; the main one is <span class="text-success"><strong>cell-on-a-chip</strong></span> or a simulation of a whole cell behaviour in a single unit of hardware. Other important results are:</p>
-<ul>
-<li>a new language (MP grammar) for hardware specification;</li>
-<li>possibility to work with one model expressed in a domain—let us say an digital circuit—in another one—in this case, MP system—, perform operation (such as optimization, reduction, etc) and, then, return to the original model domain;</li>
-<li>automatic composition of hardware through definition of input signals, output signals and some known rules.<sup><a href="#fn2" class="footnoteRef" id="fnref2">2</a></sup></li>
-</ul>
-<p>This work is still being developed. In case you want to discuss it , have an insight or is just curiouos, please feel free to contact me.</p>
+<p>My PhD research focus on the computational properties of <a href="http://www.scholarpedia.org/article/Metabolic_P_systems">Metabolic P grammars and systems</a> and the ability to translate them to useful algorithms and hardware.</p>
+<p>For the present moment, there are the following results:</p>
+<ol style="list-style-type: decimal">
+<li>definition of a subclass of MP systems, the MP<sup>+</sup>V systems;</li>
+<li>proof of the computational universality (Turing completeness) of MP<sup>+</sup>V (and, hence, MP) systems;</li>
+<li>translation algorithm from register machines to MP<sup>+</sup>V systems;</li>
+<li>translation algorithm fom MP<sup>+</sup>V systems to register machines;</li>
+<li>functional but under-development compiler and simulator of register machines to MP<sup>+</sup>V systems, and vice-versa.</li>
+</ol>
+<p>To highlight the importance of this research, it is enough to understand that MP systems are used to model metabolic behaviour of biological cells. Hence, if one takes a model of biological cell in MP system representation, it can be automatically translated to a discrete simulation software or even a hardware (<em>cell-on-a-chip</em>). Or, further, one may take an algorithm (for instance, that kills cancer cell) and synthetize an artificial cell.<sup><a href="#fn2" class="footnoteRef" id="fnref2">2</a></sup></p>
 <h3 id="available-material">Available material</h3>
 <ol style="list-style-type: decimal">
 <li><a href="./resources/presentations/2014-10-29/presentazione-avanzamento-dottorato-2014.pdf">“MP Grammars, Reactive Systems and Electric Circuits” (2nd year presentation)</a></li>
@@ -123,7 +117,7 @@ Related institutes
 Subjects
 </dt>
     <dd>
-Adaptive automata, graph theory, phylogenetic trees
+Graph theory, bioinformatics, phylogenetics, population genetics, adaptive computing, systems simulation
 </dd>
     <dt>
 Start date
@@ -190,7 +184,7 @@ Related institutes
 <hr />
 <ol>
 <li id="fn1"><p>Given my present age, I’ve been researching around 25% of my existence.<a href="#fnref1">↩</a></p></li>
-<li id="fn2"><p>This approach makes use of <abbr title="Log-Gain Stoichiometric Stepwise">LGSS</abbr> regression algorithm. For more information, see the article <a href="http://www.worldscientific.com/doi/abs/10.1142/S0129054111007861">Log-Gain Stoichiometric Stepwise Regression for MP systems</a>.<a href="#fnref2">↩</a></p></li>
+<li id="fn2"><p>Of course it requires scientifical and technological progress that (probably) doesn’t exist yet. Those were solely examples of the consequence of this work, nothing more.<a href="#fnref2">↩</a></p></li>
 </ol>
 </div>
         </div>
